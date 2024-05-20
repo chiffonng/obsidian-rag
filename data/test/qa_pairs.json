@@ -1,0 +1,75 @@
+{
+    "honest": [
+        {
+            "query": "What is a probability?",
+            "response": "A probability presents how likely an event is to occur with a number between 0 and 1, where, roughly speaking, 0 indicates impossibility of the event and 1 indicates certainty. The higher the probability of an event, the more likely it is that the event will occur.\n",
+            "task": "extract"
+        },
+        {
+            "query": "In marketing 4P, what factors affect price?",
+            "response": "Several factors affect price: supply costs, discounts, competitors' prices. However, the optimal approach should be customer-based. We want to quantify the range of willingness to pay and change prices by segments. If we just do cost-based pricing, we miss out on customer needs.",
+            "task": "extract"
+        },
+        {
+            "query": "What does microenomics concern?",
+            "response": "Microeconomics is the study of how individuals, households, and firms make decisions about using limited resources—not just buying, selling, or producing them",
+            "task": "extract"
+        },
+        {
+            "query": "Explain gradient descent in simple words.",
+            "response": "Gradient descent is an iterative, greedy algorithm that finds a LOCAL minimum or maximum of a differentiable function (e.g. cost function) by iteratively adjusting in the direction of steepest descent. Intuitively, gradient descent is like finding the lowest point in a hilly landscape. Imagine you're on a hill, and you want to reach the lowest point (minimum). You start at any random spot on the hill, look around, feel the slope, and walk small steps in the steepest direction. You repeat this process until you reach the lowest point, where the slope is nearly flat. You've found the minimum!",
+            "task": "extract" 
+        },
+        {
+            "query": "How do I interpret regression coefficients?",
+            "response": "Slope b indicates that, for every unit increase in the predictor, we would expect b unit increase in the dependent variable.\n Intercept a is the value of dependent variable when all independent variables are set to 0. \nError term (residual): the difference between the predicted and actual value (aka the uncertainty of the regression model. \n Interaction term indicate whether there is a joint effect of some predictors on the variable.",
+            "task": "extract"
+        },
+        {
+            "query": "Provide an overview of most important mechanisms for transformers.",
+            "response": "The most important mechanisms for transformers include self-attention mechanisms, multi-head attention, positional encoding, and feedforward neural networks. These mechanisms enable transformers to handle sequence data effectively, by learning the relationships between different elements of the sequence and the relative positions of these elements, and by paying attention to relevant parts of the sequence when making predictions.",
+            "task": "summarize"
+        },
+        {
+            "query": "How should I evaluate a synthetic control case study?",
+            "response": "We can conduct placebo studies to ensure that the treatment effect is only observed by the treated unit in the specific time. This can be done through in-time placebo (reapplying the treatment to a different time period before the intervention) or in-space placebo (reapplying the treatment to a comparison unit).\n Further, we can perform robustness tests by iteratively excluding each comparison unit with positive weights (leave-one-out), reconstructing the synthetic control, and re-estimating the treatment effect to see if the conclusion still holds.",
+            "task": "summarize"
+        },
+        {
+            "query": "How to identify which critical point is local minimum or maximum?",
+            "response": "We can use the second derivative test. If the second derivative is positive, the critical point is a local minimum. If the second derivative is negative, the critical point is a local maximum. If the second derivative is zero, the test is inconclusive.",
+            "task": "summarize"
+        },
+        
+        {
+            "query": "What are some methods to measure how well a Bayesian model estimates the posterior?",
+            "response": "1. Model evidence: Quantifies the probability of observed data under the model, indicating how well a Bayesian model fits the observed data.\n 2. Kullback-Leibler divergence: Quantifies the difference between two probability distributions, typically a true/observed distribution and an estimated model distribution.\n 3. Log Point-wise Predictive Density (LPPD): Represents the difference between the KL divergence of the target and model and the KL divergence of the target and itself. It is a measure of how well the model fits the data.",
+            "task": "summarize"
+        },
+        {
+            "query": "Based on the NLP techniques I already learned, what should I learn next?",
+            "response": "Delve deeper into advanced transformer models beyond BERT\nLearn how to fine-tune pre-trained models like BERT or GPT for specific downstream tasks\nExplore models that handle multiple modalities, such as images and text. Models like CLIP (Contrastive Language-Image Pre-training) and ViT (Vision Transformer) can provide insights into cross-modal representations.\nGain an understanding of ethical considerations and biases in NLP models. Explore methods to detect and mitigate biases in language models.",
+            "task": "infer"
+        },
+        {
+            "query": "From my notes, what did I learn in the business classes?",
+            "response": "In marketing, you learned about customer-centric thinking, such as customer segmentation and customer lifetime value, and popular frameworks, such as five competitive forces and marketing 4Ps.\nIn accounting, you learned about three financial statements that are used to evaluate a company's financial performance: balance sheet, income statement, and cash flow statement.\n In finance, you learned about the time value of money, valuation, options, and risk management. You also learned the basics of economics.",
+            "task": "infer"
+        },
+        {
+            "query": "Why do we need to change the basis?",
+            "response": "The answer is not available in your knowledge base. I will use my own knowledge to answer the question. The change of basis is necessary when we want to work with a different linear transformation or when we want to represent vectors in a different basis. It allows us to convert matrices and vectors from one basis to another. ",
+            "task": "external"
+        },
+        {
+            "query": "What does alignment research entail?",
+            "response": "The answer is not available in your knowledge base. I will use my own knowledge to answer the question. Alignment research is a type of qualitative research that aims to understand the alignment between the company's strategy and its organizational structure, culture, and processes. It is often used to identify the root cause of a problem and to develop a solution to the problem.",
+            "task": "external"
+        }, 
+        {
+            "query": "How do we use linear parameter model to build non-linear models?",
+            "response": "The answer is not available in your knowledge base. I will use my own knowledge to answer the question. We can use linear parameter model to build non-linear models by adding non-linear terms to the model. For example, we can add a quadratic term to the model to capture the non-linear relationship between the dependent variable and the independent variable.",
+            "task": "external"
+        }
+    ]
+}
